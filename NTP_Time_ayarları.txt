@@ -1,0 +1,9 @@
+sudo yum install chrony
+
+sudo systemctl enable chronyd
+
+sudo systemctl status chronyd
+
+---------------------
+timedatectl  yazdığımızda ntp serverin active olduğunu görüyoruz artık sistemimiz güncel
+bunu kurduğumuz her makinaya yapmalıyız
